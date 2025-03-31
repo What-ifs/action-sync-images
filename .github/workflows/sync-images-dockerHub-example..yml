@@ -36,5 +36,7 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
 
-        skopeo copy docker://ghcr.io/tenstorrent/tt-mlir/tt-mlir-ci-ubuntu-22-04:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tqs:latest
+        #skopeo copy docker://ghcr.io/tenstorrent/tt-mlir/tt-mlir-ci-ubuntu-22-04:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tqs:latest
+
+        skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-amd64:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-amd64:latest
  
