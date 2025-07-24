@@ -38,5 +38,6 @@ jobs:
 
         #skopeo copy docker://ghcr.io/tenstorrent/tt-mlir/tt-mlir-ci-ubuntu-22-04:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tqs:latest
 
-        skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-amd64:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-amd64:latest
+        # skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-amd64:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-amd64:latest
+        skopeo copy docker://ghcr.io/tenstorrent/tt-forge-fe-slim:0.2.0.dev20250723 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-forge-fe-slim:0.2.0.dev20250723
  
