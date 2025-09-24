@@ -41,6 +41,7 @@ jobs:
         # skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-amd64:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-amd64:latest
         # skopeo copy docker://ghcr.io/tenstorrent/tt-forge-fe-slim:0.2.0.dev20250723 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-forge-fe-slim:0.2.0.dev20250723
         # skopeo copy docker://ghcr.io/tenstorrent/tt-forge-fe/tt-forge-fe-ird-ubuntu-22-04:dt-ba7b3d0f592cf759130de4795c1e379d8b7858715a8b1474857be31f992f0867 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-forge-fe-ird-ubuntu-22-04:dt-ba7b3d0f592cf759130de4795c1e379d8b7858715a8b1474857be31f992f0867
-        skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-dev-amd64:dc6efbf922d98f7e05214b3e37b908c5aad9ae2a docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-dev-amd64:dc6efbf922d98f7e05214b3e37b908c5aad9ae2a
+        # skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-dev-amd64:dc6efbf922d98f7e05214b3e37b908c5aad9ae2a docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-dev-amd64:dc6efbf922d98f7e05214b3e37b908c5aad9ae2a
+        skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-dev-amd64:2c3bfdbace914b7674757815241961d5c47ace1a docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-dev-amd64:2c3bfdbace914b7674757815241961d5c47ace1a
         
  
