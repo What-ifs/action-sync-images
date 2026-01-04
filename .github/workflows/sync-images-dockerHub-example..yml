@@ -47,5 +47,4 @@ jobs:
         # skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-dev-amd64:5d683e3415ca1e83a2b1c3082d5df85218949c34 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-dev-amd64:5d683e3415ca1e83a2b1c3082d5df85218949c34
         skopeo copy docker://pytorch/pytorch:2.9.1-cuda12.8-cudnn9-devel docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/pytorch:2.9.1-cuda12.8-cudnn9-devel
         
-
         
