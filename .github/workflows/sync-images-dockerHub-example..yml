@@ -45,6 +45,6 @@ jobs:
         # skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-dev-amd64:2c3bfdbace914b7674757815241961d5c47ace1a docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-dev-amd64:2c3bfdbace914b7674757815241961d5c47ace1a
         # skopeo copy docker://ghcr.io/tenstorrent/tt-llk/tt-llk-ird-ubuntu-22-04:dt-a85dcc12a4160a88f997ea946e46ce1439e74bfac9ec38915bd43e354cd4a5de docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-llk-ird-ubuntu-22-04:dt-a85dcc12a4160a88f997ea946e46ce1439e74bfac9ec38915bd43e354cd4a5de
         # skopeo copy docker://ghcr.io/tenstorrent/tt-metal/tt-metalium/ubuntu-22.04-dev-amd64:5d683e3415ca1e83a2b1c3082d5df85218949c34 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/tt-metalium-ubuntu-22.04-dev-amd64:5d683e3415ca1e83a2b1c3082d5df85218949c34
-        skopeo copy docker://pytorch/pytorch:2.9.1-cuda12.8-cudnn9-devel docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/pytorch:2.9.1-cuda12.8-cudnn9-devel
-        
+        # skopeo copy docker://pytorch/pytorch:2.9.1-cuda12.8-cudnn9-devel docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/pytorch:2.9.1-cuda12.8-cudnn9-devel
+        skopeo copy docker://pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/pytorch:2.6.0-cuda12.4-cudnn9-devel
         
