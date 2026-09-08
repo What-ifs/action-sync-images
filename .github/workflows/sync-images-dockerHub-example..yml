@@ -49,5 +49,5 @@ jobs:
         # skopeo copy docker://pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/pytorch:2.6.0-cuda12.4-cudnn9-devel
         # skopeo copy docker://ubuntu:22.04 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/ubuntu:22.04
         # skopeo copy docker://vllm/vllm-openai:v0.28.0-cu129 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/vllm-openai:v0.28.0-cu129
-        skopeo copy docker://prom/prometheus:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/prom/prometheus:latest
-        skopeo copy docker://grafana/grafana:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/grafana/grafana:latest
+        skopeo copy docker://prom/prometheus:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/prometheus:latest
+        skopeo copy docker://grafana/grafana:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/grafana:latest
