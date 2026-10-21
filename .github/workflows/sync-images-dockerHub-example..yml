@@ -51,4 +51,5 @@ jobs:
         # skopeo copy docker://vllm/vllm-openai:v0.28.0-cu129 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/vllm-openai:v0.28.0-cu129
         # skopeo copy docker://prom/prometheus:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/prometheus:latest
         # skopeo copy docker://grafana/grafana:latest docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/grafana:latest
-        skopeo copy docker://vllm/vllm-openai:latest-cu129 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/vllm-openai:latest-cu129
+        # skopeo copy docker://vllm/vllm-openai:latest-cu129 docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/vllm-openai:latest-cu129
+        skopeo copy docker://bvlc/caffe:cpu docker://crpi-jy9d8ytudetsnk6q.cn-hangzhou.personal.cr.aliyuncs.com/tqs/bvlc-caffe:cpu
